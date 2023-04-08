@@ -84,7 +84,7 @@ Config.Locations = {
 
 Config.ArmoryWhitelist = {}
 
-Config.PoliceHelicopter = "b412"
+Config.PoliceHelicopter = "maverick"
 
 Config.SecurityCameras = {
     hideradar = false,
@@ -132,67 +132,25 @@ Config.SecurityCameras = {
 Config.AuthorizedVehicles = {
 	-- Cadet
 	[0] = {
-		["lib11vic"] = "2011 Crown Vic",  
+	
 	},
 	-- Officer 1
 	[1] = {
-		["lib11vic"] = "2011 Crown Vic", 
-		["lib12caprice"] = "2012 Caprice", 
-		["lib18taurus"] = "2018 taurus", 
+		
 	},
 	-- Sr Officer 
 	[2] = {
-		["lib11vic"] = "2011 Crown Vic", 
-		["lib12caprice"] = "2012 Caprice", 
-		["lib18taurus"] = "2018 taurus", 
-		["lib16explorer"] = "2016 Explorer", 
-        ["lib14charger"] = "2014 Charger",
-        ["lib14ram"] = "2014 Dodge Ram",
-        ["lib15f150"] = "2015 Ford F150",
-        ["speedc8rb"] = "H.E.A.T Corvette c8",
-        ["speeddemonrb"] = "H.E.A.T Dodge demon",
-        ["speedchargerrb"] = "H.E.A.T Dodge Charger",
+
 	},
 	-- Supervisor
 	[3] = {
-		["lib11vic"] = "2011 Crown Vic", 
-		["lib12caprice"] = "2012 Caprice", 
-		["lib18taurus"] = "2018 taurus", 
-		["lib16explorer"] = "2016 Explorer", 
-        ["lib14charger"] = "2014 Charger",
-        ["lib14ram"] = "2014 Dodge Ram",
-        ["lib15f150"] = "2015 Ford F150",
-        ["lib14tahoe"] = "2014 Tahoe",
-        ["lib19silverado"] = "2019 Silverado",
-        ["lib18charger"] = "2018 Charger", 
-        ["lib19tahoe"] = "2019 Tahoe",
-        ["slc316utility"] = "Unmarked 16 Exp",
-        ["slc318suv"] = "Unmarked 18 Tahoe",
-        ["speedc8rb"] = "H.E.A.T Corvette c8",
-        ["speeddemonrb"] = "H.E.A.T Dodge demon",
-        ["speedchargerrb"] = "H.E.A.T Dodge Charger",
+
 	},
 	-- Command
 	[4] = {
-		["lib11vic"] = "2011 Crown Vic", 
-		["lib12caprice"] = "2012 Caprice", 
-		["lib18taurus"] = "2018 taurus", 
-		["lib16explorer"] = "2016 Explorer", 
-        ["lib14charger"] = "2014 Charger",
-        ["lib14ram"] = "2014 Dodge Ram",
-        ["lib15f150"] = "2015 Ford F150",
-        ["lib14tahoe"] = "2014 Tahoe",
-        ["lib19silverado"] = "2019 Silverado",
-        ["lib18charger"] = "2018 Charger", 
-        ["lib19tahoe"] = "2019 Tahoe",
-        ["slc316utility"] = "Unmarked 16 Exp",
-        ["slc318suv"] = "Unmarked 18 Tahoe",
-        ["17gscrb"] = "Speed AMG",
-        ["16gescbb"] = "Speed Tesla",
-        ["speedc8rb"] = "H.E.A.T Corvette c8",
-        ["speeddemonrb"] = "H.E.A.T Dodge demon",
-        ["speedchargerrb"] = "H.E.A.T Dodge Charger",
-	},
+        
+        },
+
 }
 
 Config.WhitelistedVehicles = {}
@@ -414,143 +372,6 @@ Config.Items = {
             info = {},
             type = "item",
             slot = 16,
-            authorizedJobGrades = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24}
-        },
-        [17] = {
-           name = "weapon_pistol",
-           price = 0,
-           amount = 1,
-           info = {
-               serie = "",
-               attachments = {
-                  {component = "COMPONENT_AT_PI_FLSH", label = "Flashlight"},
-           }
-          },
-          type = "weapon",
-          slot = 17,
-          authorizedJobGrades = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24}
-        },
-        [18] = {
-            name = "pistol_ammo",
-            price = 0,
-            amount = 5,
-            info = {
-                serie = "",
-                attachments = {
-                   {component = "COMPONENT_AT_PI_FLSH", label = "Flashlight"},
-            }
-           },
-           type = "weapon",
-           slot = 18,
-           authorizedJobGrades = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24}
-         },
-         [19] = {
-            name = "rifle_ammo",
-            price = 0,
-            amount = 3,
-            info = {
-                serie = "",
-                attachments = {
-                   {component = "COMPONENT_AT_PI_FLSH", label = "Flashlight"},
-            }
-           },
-           type = "weapon",
-           slot = 19,
-           authorizedJobGrades = {3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24}
-         },
-        [20] = {
-            name = "advancedlockpick",
-            price = 0,
-            amount = 10,
-            info = {},
-            type = "item",
-            slot = 20,
-            authorizedJobGrades = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24}
-         },
-        [21] = {
-            name = "shotgun_ammo",
-            price = 0,
-            amount = 3,
-            info = {
-                serie = "",
-                attachments = {
-                   {component = "COMPONENT_AT_PI_FLSH", label = "Flashlight"},
-            }
-           },
-           type = "weapon",
-           slot = 21,
-           authorizedJobGrades = {3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24}
-        },
-        [22] = {
-            name = "firstaid",
-            price = 0,
-            amount = 10,
-            info = {},
-            type = "item",
-            slot = 22,
-            authorizedJobGrades = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24}
-        },
-        [23] = {
-            name = "gsrtestkit",
-            price = 0,
-            amount = 10,
-            info = {},
-            type = "item",
-            slot = 23,
-            authorizedJobGrades = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24}
-        },
-        [24] = {
-            name = "dnatestkit",
-            price = 0,
-            amount = 10,
-            info = {},
-            type = "item",
-            slot = 24,
-            authorizedJobGrades = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24}
-        },
-        [25] = {
-            name = "breathalyzer",
-            price = 0,
-            amount = 10,
-            info = {},
-            type = "item",
-            slot = 25,
-            authorizedJobGrades = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24}
-        },
-        [26] = {
-            name = "accesstool",
-            price = 0,
-            amount = 10,
-            info = {},
-            type = "item",
-            slot = 26,
-            authorizedJobGrades = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24}
-        },
-        [27] = {
-            name = "fingerprintreader",
-            price = 0,
-            amount = 10,
-            info = {},
-            type = "item",
-            slot = 27,
-            authorizedJobGrades = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24}
-        },
-        [28] = {
-            name = "spikestrip",
-            price = 0,
-            amount = 3,
-            info = {},
-            type = "item",
-            slot = 28,
-            authorizedJobGrades = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24}
-        },
-        [29] = {
-            name = "taser_cartridge",
-            price = 0,
-            amount = 4,
-            info = {},
-            type = "item",
-            slot = 29,
             authorizedJobGrades = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24}
         },
     }
