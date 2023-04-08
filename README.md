@@ -5,6 +5,7 @@ Handcuff Changes:
 
 - Ive made it so when you get cuffed there is a wheel where you can break out of the cuffs
 - When cuffed a model will spawn on your hands
+- Cuff model dissapears when cuffs are taken off
  
  Impound Changes: 
  
