@@ -440,6 +440,8 @@ CreateThread(function()
     end
 end)
 
+
+-- UPDATED POLICE CUFF BY GENY
 RegisterNetEvent('police:client:GetCuffed', function(playerId, isSoftcuff, AttachEntity)
     if not isHandcuffed then
         local seconds = math.random(4,5)
