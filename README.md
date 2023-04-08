@@ -1,5 +1,5 @@
 # qb-policejob
-Some made a few changes to a r14 adapted qb-policejob
+Some made a few changes to qb-policejob
 
 Handcuff Changes: 
 
