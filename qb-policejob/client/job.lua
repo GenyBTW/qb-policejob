@@ -326,6 +326,8 @@ RegisterNetEvent('police:client:CallAnim', function()
     end)
 end)
 
+
+-- UPDATED IMPOUND BY GENY
 RegisterNetEvent('police:client:ImpoundVehicle', function(fullImpound, price)
     local vehicle = QBCore.Functions.GetClosestVehicle()
     local bodyDamage = math.ceil(GetVehicleBodyHealth(vehicle))
